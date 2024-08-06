@@ -2,7 +2,18 @@
 
 A quiz application built with Flutter following CLEAN architecture, SOLID principles, using state management with flutter_bloc, dependency injection with get_it, and navigation with auto_route.
 
-## Getting Started
+## Table of Contents
+    Folder Structure
+    Architecture and Principles
+    CLEAN Architecture
+    SOLID Principles
+    State Management
+    Dependency Injection
+    Navigation with AutoRoute
+    Running the Project
+    Running the Builder
+    Running the Project
+
 
 This project is a starting point for a Flutter application.
 
