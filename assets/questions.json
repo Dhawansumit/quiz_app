@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is Flutter?",
+    "options": ["A framework", "A language", "An IDE", "A plugin"],
+    "answer": "A framework"
+  },
+  {
+    "question": "Which plugin is used to make HTTP requests in Flutter?",
+    "options": ["http", "url_launcher", "sqflite", "shared_preferences"],
+    "answer": "http"
+  },
+  {
+    "question": "Which language is used for developing Flutter apps?",
+    "options": ["Java", "Kotlin", "Dart", "Swift"],
+    "answer": "Dart"
+  },
+  {
+    "question": "Who developed Flutter?",
+    "options": ["Facebook", "Google", "Microsoft", "Apple"],
+    "answer": "Google"
+  },
+  {
+    "question": "What is the latest stable version of Flutter?",
+    "options": ["1.20", "2.5", "2.2", "3.0"],
+    "answer": "3.0"
+  },
+  {
+    "question": "Which widget is used to display a list of items in Flutter?",
+    "options": ["Column", "Row", "ListView", "Stack"],
+    "answer": "ListView"
+  },
+  {
+    "question": "Which widget is used to create a button in Flutter?",
+    "options": ["Container", "Column", "Row", "ElevatedButton"],
+    "answer": "ElevatedButton"
+  },
+  {
+    "question": "Which function is used to start the execution of a Flutter app?",
+    "options": ["runApp()", "startApp()", "executeApp()", "beginApp()"],
+    "answer": "runApp()"
+  },
+  {
+    "question": "What is the default port for Flutter web development?",
+    "options": ["8000", "8080", "5000", "3000"],
+    "answer": "8080"
+  },
+  {
+    "question": "Which widget is used for layout in Flutter?",
+    "options": ["Container", "Column", "Row", "All of the above"],
+    "answer": "All of the above"
+  }
+]
