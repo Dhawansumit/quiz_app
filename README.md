@@ -11,8 +11,6 @@ A quiz application built with Flutter following CLEAN architecture, SOLID princi
 - Dependency Injection
 - Navigation with AutoRoute
 - Running the Project
-- Running the Builder
-- Running the Project
 
 ## Folder Structure
     lib/
