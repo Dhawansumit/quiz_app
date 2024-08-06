@@ -90,13 +90,13 @@ The project adheres to SOLID principles to ensure maintainable and scalable code
 
 ## State Management
 State management is handled using `flutter_bloc`. BLoC (Business Logic Component) helps separate business logic from the UI, making the code more modular and testable.
----
+
 ## Dependency Injection
 The project uses `get_it` for dependency injection. `get_it` is a simple service locator for Dart and Flutter projects. It allows easy management of dependencies and promotes a decoupled codebase.
----
+
 ## Navigation with AutoRoute
 Navigation is managed using `auto_route`, a Flutter routing package that simplifies the management of routes. It allows for declarative routing and code generation for better navigation management.
----
+
 ## Running the Project
 **Running the Builder**
 Before running the project, ensure the necessary code generation steps are completed. Run the following command to generate the routes:
@@ -109,10 +109,10 @@ To run the project, use the following command:
     flutter run
 
 This will start the application on your connected device or emulator.
----
+
 
 **Conclusion**
 This project demonstrates the use of CLEAN architecture, SOLID principles, state management with flutter_bloc, dependency injection with get_it, and navigation with auto_route in a Flutter application. It provides a modular and scalable structure for building robust applications.
 
 Feel free to contribute to the project or use it as a reference for your own Flutter applications. If you encounter any issues or have suggestions, please open an issue or submit a pull request.
----
+
