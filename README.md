@@ -74,16 +74,22 @@ A quiz application built with Flutter following CLEAN architecture, SOLID princi
 This project follows CLEAN architecture to ensure separation of concerns and scalability. The structure is divided into three main layers:
 
 **Data Layer**: Contains the implementation of data sources and repositories. It handles data fetching and storage.
+
 **Domain Layer**: Contains business logic. This includes entities, use cases, and repository interfaces.
+
 **Presentation Layer**: Handles the UI and state management. This includes widgets, pages, and BLoC classes.
 
 **SOLID Principles**
 The project adheres to SOLID principles to ensure maintainable and scalable code:
 
 **Single Responsibility Principle**: Each class has a single responsibility.
+
 **Open/Closed Principle**: Classes are open for extension but closed for modification.
+
 **Liskov Substitution Principle**: Subtypes can replace their base types without altering the correctness of the program.
+
 **Interface Segregation Principle**: Clients should not be forced to depend on interfaces they do not use.
+
 **Dependency Inversion Principle**: High-level modules should not depend on low-level modules. Both should depend on abstractions.
 
 ---
