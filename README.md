@@ -15,57 +15,57 @@ A quiz application built with Flutter following CLEAN architecture, SOLID princi
 - Running the Project
 
 ## Folder Structure
-lib/
-│
-├── core/
-│   ├── error/
-│   │   └── exceptions.dart
-│   │   └── failures.dart
-│   ├── usecases/
-│   │   └── usecase.dart
-│   ├── utils/
-│       └── constants.dart
-│       └── input_converter.dart
-│
-├── features/
-│   ├── quiz/
-│   │   ├── data/
-│   │   │   ├── models/
-│   │   │   │   └── question_model.dart
-│   │   │   ├── repositories/
-│   │   │   │   └── quiz_repository_impl.dart
-│   │   │   ├── datasources/
-│   │   │       └── quiz_local_datasource.dart
-│   │   │
-│   │   ├── domain/
-│   │   │   ├── entities/
-│   │   │   │   └── question.dart
-│   │   │   ├── repositories/
-│   │   │   │   └── quiz_repository.dart
-│   │   │   ├── usecases/
-│   │   │       └── get_questions.dart
-│   │   │
-│   │   ├── presentation/
-│   │       ├── bloc/
-│   │       │   ├── quiz_bloc.dart
-│   │       │   ├── quiz_event.dart
-│   │       │   └── quiz_state.dart
-│   │       ├── pages/
-│   │       │   └── home_page.dart
-│   │       │   └── quiz_page.dart
-│   │       │   └── result_page.dart
-│   │       └── widgets/
-│   │           └── question_widget.dart
-│   │           └── topic_selector_widget.dart
-│
-├── common/
-│   └── common_app_bar.dart
-│
-├── injection_container.dart
-├── routes.dart
-├── main.dart
-└── assets/
-    └── questions.json
+    lib/
+    │
+    ├── core/
+    │   ├── error/
+    │   │   └── exceptions.dart
+    │   │   └── failures.dart
+    │   ├── usecases/
+    │   │   └── usecase.dart
+    │   ├── utils/
+    │       └── constants.dart
+    │       └── input_converter.dart
+    │
+    ├── features/
+    │   ├── quiz/
+    │   │   ├── data/
+    │   │   │   ├── models/
+    │   │   │   │   └── question_model.dart
+    │   │   │   ├── repositories/
+    │   │   │   │   └── quiz_repository_impl.dart
+    │   │   │   ├── datasources/
+    │   │   │       └── quiz_local_datasource.dart
+    │   │   │
+    │   │   ├── domain/
+    │   │   │   ├── entities/
+    │   │   │   │   └── question.dart
+    │   │   │   ├── repositories/
+    │   │   │   │   └── quiz_repository.dart
+    │   │   │   ├── usecases/
+    │   │   │       └── get_questions.dart
+    │   │   │
+    │   │   ├── presentation/
+    │   │       ├── bloc/
+    │   │       │   ├── quiz_bloc.dart
+    │   │       │   ├── quiz_event.dart
+    │   │       │   └── quiz_state.dart
+    │   │       ├── pages/
+    │   │       │   └── home_page.dart
+    │   │       │   └── quiz_page.dart
+    │   │       │   └── result_page.dart
+    │   │       └── widgets/
+    │   │           └── question_widget.dart
+    │   │           └── topic_selector_widget.dart
+    │
+    ├── common/
+    │   └── common_app_bar.dart
+    │
+    ├── injection_container.dart
+    ├── routes.dart
+    ├── main.dart
+    └── assets/
+        └── questions.json
 
 ## Architecture and Principles
 **CLEAN Architecture**
