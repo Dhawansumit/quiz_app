@@ -1,6 +1,6 @@
 # quiz_app
 
-A new Flutter project.
+A quiz application built with Flutter following CLEAN architecture, SOLID principles, using state management with flutter_bloc, dependency injection with get_it, and navigation with auto_route.
 
 ## Getting Started
 
